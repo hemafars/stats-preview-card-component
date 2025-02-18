@@ -37,9 +37,8 @@ body{
      /* font-style: normal; */
      font-size: 15px;
      background-color: var(--Very-dark-blue-main-background);
-     
 }
-@media (min-width:1440px) {
+@media (max-width:1440px) {
      body{
           overflow: hidden;
      }
@@ -49,8 +48,8 @@ body{
      position: relative;
      background-image: url(/images/image-header-desktop.jpg);
      background-size: cover;
-}
-.right-card::before{
+     }
+     .right-card::before{
      content: "";
      position: absolute;
      left: 0;
@@ -67,8 +66,6 @@ body{
      height: 100vh;
 }
 }
-
-
 .container{
      display: flex;
      align-items: center;
@@ -76,27 +73,31 @@ body{
      width: 1000px;
 }
 @media(width: 375px) {
+     body{
+          overflow:scroll;
+     }
      .container{
-          display: flex;
+          
           flex-direction: column-reverse;
+          
      }
      .left-card,.right-card{
-      min-width: 300px;
+          min-width: 330px;
      }
      .right-card{
-          min-width:300px;
-          height: 200px;
-          background-image: url(/images/image-header-mobile.jpg);
-          background-size:cover;
-          
+     min-width: 330PX;
+        height: 200px;
+        /* position: relative; */
+        background-image: url(images/image-header-mobile.jpg);
+        background-size: COVER;
      }
      .right-card::before{
      content: "";
      position: absolute;
-     left: 38px;
+     left: 0;
      right: 0;
-     width: 300px;
-     height: 200px;
+     width: 100%;
+     height: 100%;
      background-color:violet;
      opacity: 0.4;
 }
@@ -104,10 +105,8 @@ body{
      display: flex;
      justify-content: center;
      align-items: center;
-    
 }
 }
-
 .left-card{
      width: 50%;
      height: 400px;
