@@ -12,19 +12,23 @@ The designs were created to the following widths:
 ## Colors
 
 ### Primary
-
-- Very dark blue (main background): hsl(233, 47%, 7%)
+<!-- أزرق غامق جدًا (الخلفية الرئيسية): -->
+- Very dark blue (main background): hsl(233, 47%, 7%) 
+<!-- أزرق داكن غير مشبع (خلفية البطاقة) -->
 - Dark desaturated blue (card background): hsl(244, 38%, 16%)
+<!-- بنفسجي ناعم (لهجة): -->
 - Soft violet (accent): hsl(277, 64%, 61%)
 
 ### Neutral
-
+<!-- الأبيض (العنوان الرئيسي، الإحصائيات): -->
 - White (main heading, stats): hsl(0, 0%, 100%)
+<!-- أبيض شفاف قليلاً (الفقرة الرئيسية) -->
 - Slightly transparent white (main paragraph): hsla(0, 0%, 100%, 0.75)
+<!-- أبيض شفاف قليلاً (عناوين الإحصائيات) -->
 - Slightly transparent white (stat headings): hsla(0, 0%, 100%, 0.6)
-
+<!-- الطباعة -->
 ## Typography
-
+<!-- نسخة الجسم -->
 ### Body Copy
 
 - Font size: 15px
