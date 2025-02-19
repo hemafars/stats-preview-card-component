@@ -55,7 +55,7 @@
           width: 450px;
           height: 400px;
           position: relative;
-          background-image: url(/images/image-header-desktop.jpg);
+          background-image: url(images/image-header-desktop.jpg);
           background-size: cover; 
           background-repeat: no-repeat;
           border: 0px solid var(--Very-dark-blue-main-background);
