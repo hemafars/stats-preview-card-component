@@ -26,9 +26,6 @@
      - Slightly transparent white (stat headings) */
      --Slightly-transparent-white-stat-headings: hsla(0, 0%, 100%, 0.6);
     }
-
-
-
      body{
           font-family: "Lexend Deca", serif;
           /* font-optical-sizing: auto; */
@@ -58,7 +55,7 @@
           width: 450px;
           height: 400px;
           position: relative;
-          background-image: url(./images/image-header-desktop.jpg);
+          background-image: url(images/image-header-desktop.jpg);
           background-size: cover; 
           background-repeat: no-repeat;
           border: 0px solid var(--Very-dark-blue-main-background);
@@ -144,7 +141,7 @@ font-weight: 400;
      width: 300px;
      height: 220px;
      position: relative;
-     background-image: url(./images/image-header-mobile.jpg);
+     background-image: url(images/image-header-mobile.jpg);
      background-size: contain;
      background-repeat: no-repeat;
      border: 0px solid var(--Very-dark-blue-main-background);
