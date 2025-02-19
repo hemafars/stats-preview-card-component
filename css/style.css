@@ -60,7 +60,7 @@
           width: 450px;
           height: 400px;
           position: relative;
-          background-image: url(/images/image-header-desktop.jpg);
+          background-image: url(images/image-header-desktop.jpg);
           background-size: cover; 
           background-repeat: no-repeat;
           border: 0px solid var(--Very-dark-blue-main-background);
@@ -146,16 +146,21 @@ font-weight: 400;
           width: 260px;
           height: 215px;
           position: relative;
-          background-image: url(/images/image-header-desktop.jpg);
+          background-image: url(images/image-header-desktop.jpg);
           background-size: contain;
           background-repeat: no-repeat;
           margin-top: 100px;
+          border: 0px solid var(--Very-dark-blue-main-background);
+    padding: 0px;
+    border-radius: 12px 12px 0 0;
      }
 .left-card{
      width: 260px;
      /* height: 400px; */
      background-color: var(--Dark-desaturated-blue-card-background);
      padding: 0;
+     border: 0px solid var(--Very-dark-blue-main-background);
+        border-radius: 0 0 12px 12px;
 }
 .heading{
      color: var(--main-heading-stats);
